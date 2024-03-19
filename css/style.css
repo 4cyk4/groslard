@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+header{
+    width: 80%;
+    display: flex;
+}
+
+header img{
+    height: 15vh;
+}
+
+header h1{
+    margin: 6vh 10vh;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    font-size: x-large;
+}
+
+aside p{
+   color: white;
+}
+
+aside form input{
+    height: 3em;
+    margin-bottom: 20px;
+    background-image: url(../images/recherche.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+main{
+    margin: 0% 10%;
+    width: 80%;
+    background-color: white;
+    list-style-position:inside;
+    text-align: center;
+}
+
+main h2{
+    margin: 15px 30px;
+}
+
+main p{
+    margin: 15px 30px 15px;
+}
+
+main img{
+    width: 30%;
+    margin: 1.5%;
+}
+
+main form input {
+    margin: 10px 20px 10px; 
+    width: 25%;
+}
+
+
+.bas{
+    width: 50%;
+    color: white;
+    display: flex;
+}
+
+.bas iframe{
+    margin: 20px;
+}
+
+.bas p{
+    margin: 40px 20px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
