@@ -1,4 +1,5 @@
 <?php 
+    session_start();
     define('ROOT','/projet/');
 ?>
 
@@ -35,6 +36,7 @@
     </aside>
     <img src="<?= ROOT ?>images/menu.svg" alt="menu deroulant" id="mobile">
     <nav>
+        <a href="<?= ROOT ?>pages/imc.php">Calculez votre IMC</a>
         <a href="<?= ROOT ?>index.php"><img src="<?= ROOT ?>images/accueil.svg"></a>
         <a href="<?= ROOT ?>pages/entreprise.php">A Propos de nous</a>
     </nav>
